@@ -12,6 +12,7 @@
 		8329CF502995D9C9003E11C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8329CF4F2995D9C9003E11C5 /* Assets.xcassets */; };
 		8329CF532995D9C9003E11C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8329CF522995D9C9003E11C5 /* Preview Assets.xcassets */; };
 		8329CF5A2995DD9B003E11C5 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8329CF592995DD9B003E11C5 /* JokeView.swift */; };
+		8329CF5C2995E16F003E11C5 /* JeopardyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8329CF5B2995E16F003E11C5 /* JeopardyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		8329CF4F2995D9C9003E11C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8329CF522995D9C9003E11C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8329CF592995DD9B003E11C5 /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
+		8329CF5B2995E16F003E11C5 /* JeopardyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeopardyView.swift; sourceTree = "<group>"; };
+		8329CF5D2995E843003E11C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +56,10 @@
 		8329CF4A2995D9C8003E11C5 /* APIAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				8329CF5D2995E843003E11C5 /* Info.plist */,
 				8329CF4B2995D9C8003E11C5 /* APIAppSwiftUIApp.swift */,
 				8329CF4D2995D9C8003E11C5 /* ContentView.swift */,
+				8329CF5B2995E16F003E11C5 /* JeopardyView.swift */,
 				8329CF592995DD9B003E11C5 /* JokeView.swift */,
 				8329CF4F2995D9C9003E11C5 /* Assets.xcassets */,
 				8329CF512995D9C9003E11C5 /* Preview Content */,
@@ -142,6 +147,7 @@
 			files = (
 				8329CF4E2995D9C8003E11C5 /* ContentView.swift in Sources */,
 				8329CF5A2995DD9B003E11C5 /* JokeView.swift in Sources */,
+				8329CF5C2995E16F003E11C5 /* JeopardyView.swift in Sources */,
 				8329CF4C2995D9C8003E11C5 /* APIAppSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +280,7 @@
 				DEVELOPMENT_TEAM = 84LWTY6T5F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = APIAppSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +311,7 @@
 				DEVELOPMENT_TEAM = 84LWTY6T5F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = APIAppSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
