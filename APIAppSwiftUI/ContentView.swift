@@ -22,7 +22,11 @@ struct ContentView: View {
                 .tabItem {
                     Label("Jeopardy", systemImage: "square.and.pencil")
                 }
-            }
+            RandomFactView()
+                .tabItem {
+                    Label("Random Fact", systemImage: "book")
+                }
+        }
     }
 }
 
