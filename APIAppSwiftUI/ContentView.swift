@@ -26,6 +26,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Random Fact", systemImage: "book")
                 }
+            DogView()
+                .tabItem {
+                    Label("Dogs", systemImage: "dog")
+                }
         }
     }
 }

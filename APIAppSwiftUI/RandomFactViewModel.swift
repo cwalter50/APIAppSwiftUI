@@ -17,7 +17,6 @@ class RandomFactViewModel: ObservableObject {
     }
     @MainActor
     func loadRandomFact() async throws{
-        print("a")
         let urlString = "https://uselessfacts.jsph.pl/api/v2/facts/random"
         if let url = URL(string: urlString) {
 //            let (data, response) = try await URLSession.shared.data(from: url)
