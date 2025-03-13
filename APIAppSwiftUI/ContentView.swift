@@ -30,6 +30,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Dogs", systemImage: "dog")
                 }
+            QuoteView()
+                .tabItem {
+                    Label("Quotes", systemImage: "questionmark.message")
+                }
         }
     }
 }

@@ -19,9 +19,9 @@ class RandomFactViewModel: ObservableObject {
     func loadRandomFact() async throws{
         let urlString = "https://uselessfacts.jsph.pl/api/v2/facts/random"
         if let url = URL(string: urlString) {
-//            let (data, response) = try await URLSession.shared.data(from: url)
-            let result = try await URLSession.shared.data(from: url)
-            let data = result.0
+            let (data, response) = try await URLSession.shared.data(from: url)
+//            let result = try await URLSession.shared.data(from: url)
+//            let data = result.0
             if let json = try JSONSerialization.jsonObject(with: data) as? [String: Any] {
                 print(json)
                 
@@ -29,10 +29,6 @@ class RandomFactViewModel: ObservableObject {
             }
             
         }
-        
-        
-        
-        
     }
 }
 
