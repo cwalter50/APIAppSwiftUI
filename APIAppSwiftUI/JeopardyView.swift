@@ -16,6 +16,7 @@ struct JeopardyView: View {
     
     var body: some View {
         VStack {
+            Text("Problem with Jeopardy API and it is no longer working 3/2025")
             Button("Get Question")
             {
                 loadJeopardyQuestion()
